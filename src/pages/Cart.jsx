@@ -16,7 +16,7 @@ function Cart({ showCart, setShowCart }) {
         alert("Coming Soon!!")
     }
 
-    console.log("🚀 Cart Component Mounted!");
+    // console.log("🚀 Cart Component Mounted!");
 
 
     const calculateTotalCartAmount = (cartItems) => {
@@ -30,7 +30,7 @@ function Cart({ showCart, setShowCart }) {
 
     return (
         <div className="cart-container">
-            <h2>Total Cart Amount: ${calculateTotalCartAmount(cartItems).toFixed(2)}</h2>
+            <h2 style={{ color: 'black' }}>Total Cart Amount: ${calculateTotalCartAmount(cartItems).toFixed(2)}</h2>
             <div>
                 {cartItems.length === 0 ? (
                     <p>Your cart is empty</p>

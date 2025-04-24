@@ -2,7 +2,7 @@
   "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "commonjs",
   "homepage": "https://Sarthak9504.github.io/e-plantShopping",
   "scripts": {
     "dev": "vite",
@@ -14,9 +14,16 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-redux": "^9.2.0",
+    "react-router-dom": "^7.5.1",
     "redux": "^5.0.1"
   },
   "devDependencies": {

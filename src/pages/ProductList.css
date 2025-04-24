@@ -230,7 +230,7 @@ body {
     cursor: not-allowed;
 }
 
-.plantname_heading {
+.productname_heading {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,7 +242,7 @@ body {
     color: black;
 }
 
-.plant_heading {
+.product_heading {
     width: 400px;
     text-align: center;
     margin: 20px auto;
